@@ -1,6 +1,6 @@
 {
   "name": "virtual-dom",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "description": "A batched diff-based DOM rendering strategy",
   "keywords": [
     "virtual",
@@ -45,12 +45,7 @@
     "tape": "^4.0.0",
     "zuul": "^2.1.1"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/Matt-Esch/virtual-dom/raw/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "scripts": {
     "test": "node ./test/index.js | tap-spec",
     "dot": "node ./test/index.js | tap-dot",
